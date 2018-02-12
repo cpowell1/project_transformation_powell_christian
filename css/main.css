@@ -156,9 +156,9 @@ a {
 
 /* Menu */
 #menu {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
-    padding: 0;
+    padding-bottom: 5px;
 }
 
 #menu ul {
@@ -212,6 +212,7 @@ a {
     border-bottom: 1px solid #E7EBED;
 }
 
+
 .post .title {
     padding: 7px 0px 0px 0px;
     letter-spacing: -1px;
@@ -240,6 +241,7 @@ a {
 .links {
     padding-top: 20px;
     margin-bottom: 30px;
+
 }
 
 .more {
