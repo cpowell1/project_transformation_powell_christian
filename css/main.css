@@ -58,6 +58,10 @@ a {
 }
 
 /* Header */
+#header-wrapper {
+    overflow: hidden;
+}
+
 #header {
     width: 100%;
     height: auto;
@@ -189,7 +193,7 @@ a {
 
 /* Content */
 #content {
-    width: 60%;
+    width: 100%;
     padding: 0px 0px 0px 0px;
 }
 
