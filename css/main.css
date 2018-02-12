@@ -242,13 +242,15 @@ a {
     padding-top: 20px;
     margin-bottom: 30px;
 
+
 }
 
 .more {
     display: block;
-    width: 88px;
+    width: 50%;
     padding: 5px 5px;
-    margin-right: 10px;
+    margin: auto;
+		margin-bottom: 10px;
     background: #222222;
     color: #FFFFFF;
     text-align: center;
@@ -257,8 +259,9 @@ a {
 
 .comments {
     display: block;
-    width: 88px;
+    width: 50%;
     padding: 5px 5px;
+		margin: auto;
     background: #222222;
     color: #FFFFFF;
     text-align: center;
