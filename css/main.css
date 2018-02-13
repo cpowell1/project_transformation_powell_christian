@@ -226,6 +226,7 @@ a {
     color: #FFFFFF;
     text-align: center;
     text-decoration: none;
+		max-width: 150px;
 }
 
 .comments {
@@ -237,6 +238,7 @@ a {
     color: #FFFFFF;
     text-align: center;
     text-decoration: none;
+		max-width: 150px;
 }
 
 
