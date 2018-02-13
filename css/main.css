@@ -171,18 +171,6 @@ a {
     padding: 30px 10px 0px 10px;
 }
 
-@media all and (min-width: 950px) {
-		#content {
-			float: right;
-			width: calc(100 / 3 * 2);
-		}
-
-		#sidebar {
-			float: left;
-			width: calc(100 / 3);
-		}
-}
-
 /* Content */
 #content {
     width: 100%;
@@ -251,6 +239,20 @@ a {
     text-decoration: none;
 }
 
+
+@media all and (min-width: 900px) {
+		#content {
+			float: right;
+			width: 40%;
+		}
+
+		#sidebar {
+			float: left;
+			width: 40%;
+		}
+}
+
+
 /* Sidebar */
 #sidebar {
     width: 100%;
@@ -295,8 +297,7 @@ a {
 }
 
 #sidebar h2 {
-    height: 38px;
-    padding: 0px 0px 30px 0px;
+    padding: 0px 0px 20px 0px;
     letter-spacing: -.5px;
     font-size: 1.8em;
     color: #222222;
